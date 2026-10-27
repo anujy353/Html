@@ -1,0 +1,124 @@
+# HTML: Inline-Level Tags vs Block-Level Tags
+
+## 📌 Introduction
+
+In HTML, elements are commonly categorized as **Block-Level Elements** and **Inline-Level Elements** based on how they behave on a webpage.
+
+Understanding the difference helps us structure content and control its layout.
+
+## 1. Block-Level Elements
+
+**Definition:** Block-level elements typically start on a new line and occupy the full available width of their parent container by default.
+
+### Examples
+
+* `<h1>` to `<h6>` — Heading tags
+* `<p>` — Paragraph tag
+* `<ul>` — Unordered list
+* `<ol>` — Ordered list
+* `<li>` — List item
+* `<div>` — Division or container
+* `<pre>` — Preformatted text
+* `<blockquote>` — Block quotation
+
+### Example Code
+
+```html
+<h1>Hello World</h1>
+<p>This is a paragraph.</p>
+<div>This is a block-level element.</div>
+```
+
+### Output Behavior
+
+Each element typically starts on a new line.
+
+## 2. Inline-Level Elements
+
+**Definition:** Inline elements do not typically start on a new line. They occupy only the space required by their content and flow alongside other inline content.
+
+### Examples
+
+* `<a>` — Anchor tag
+* `<b>` — Bold text
+* `<strong>` — Important text
+* `<i>` — Italic text
+* `<em>` — Emphasized text
+* `<span>` — Inline container
+* `<sub>` — Subscript text
+* `<sup>` — Superscript text
+* `<img>` — Image
+* `<u>` — Underlined text
+
+### Example Code
+
+```html
+<p>
+    This is <b>bold</b> text.
+    This is <i>italic</i> text.
+    Visit <a href="https://example.com">Example</a>.
+</p>
+```
+
+### Output Behavior
+
+Inline elements generally appear within the same line as the surrounding text.
+
+## 3. Difference Between Block-Level and Inline-Level Elements
+
+| Feature    | Block-Level Elements                  | Inline-Level Elements                      |
+| ---------- | ------------------------------------- | ------------------------------------------ |
+| New Line   | Typically start on a new line         | Typically stay on the same line            |
+| Width      | Occupy the available width by default | Occupy the space required by their content |
+| Layout     | Usually stack vertically              | Usually flow horizontally with text        |
+| Examples   | `<div>`, `<p>`, `<h1>`                | `<span>`, `<a>`, `<b>`                     |
+| Common Use | Structuring webpage content           | Styling or marking text within content     |
+
+## 4. Important Points to Remember
+
+1. Block-level elements typically begin on a new line.
+2. Inline elements generally remain within the current line.
+3. CSS can change an element's display behavior using properties such as `display: block`, `display: inline`, and `display: inline-block`.
+4. An inline element generally cannot contain a block-level element under traditional HTML content rules. However, HTML validity depends on the specific elements and their content models.
+5. Modern HTML specifications classify elements according to their content models rather than using the old block-level and inline-level categories. These terms are still useful for learning their default layout behavior.
+
+## 5. Practice Example
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
+</head>
+<body>
+
+    <!-- Block-level elements -->
+    <h1>Learning HTML</h1>
+    <p>This is a paragraph.</p>
+    <div>This is a div element.</div>
+
+    <!-- Inline elements -->
+    <p>
+        This is <b>bold</b> text,
+        <i>italic</i> text, and
+        <a href="https://example.com">a link</a>.
+    </p>
+
+</body>
+</html>
+```
+
+## 🎯 What I Learned
+
+* The difference between block-level and inline-level elements.
+* Common examples of both types of elements.
+* How block and inline elements behave on a webpage.
+* How CSS can change the default display behavior of HTML elements.
+
+---
+
+**Day:** HTML Learning Journey
+**Topic:** Inline-Level Tags vs Block-Level Tags
+**Goal:** Build a strong foundation in HTML.

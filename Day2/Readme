@@ -1,0 +1,211 @@
+# HTML Semantic Tags
+
+## 📌 Introduction
+
+Semantic tags in HTML are elements that clearly describe the meaning and purpose of the content they contain.
+
+They help developers write meaningful, well-structured, and readable HTML code.
+
+## 1. What Are Semantic Tags?
+
+**Definition:** Semantic HTML elements are HTML elements that convey the meaning and purpose of their content to browsers, developers, and assistive technologies.
+
+For example:
+
+* `<header>` defines introductory content or a header section.
+* `<nav>` defines a section containing navigation links.
+* `<main>` represents the main content of a document.
+* `<section>` represents a thematic section of content.
+* `<article>` represents self-contained content.
+* `<footer>` defines footer information for a page or section.
+
+## 2. Types of Semantic Tags
+
+### 1. `<header>`
+
+The `<header>` tag represents introductory content or a header for a page or section.
+
+**Example:**
+
+```html
+<header>
+    <h1>My Website</h1>
+    <p>Welcome to my website!</p>
+</header>
+```
+
+### 2. `<nav>`
+
+The `<nav>` tag defines a section containing navigation links.
+
+**Example:**
+
+```html
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+```
+
+### 3. `<main>`
+
+The `<main>` tag represents the main content of a document.
+
+**Example:**
+
+```html
+<main>
+    <h1>About HTML</h1>
+    <p>HTML is used to structure web pages.</p>
+</main>
+```
+
+### 4. `<section>`
+
+The `<section>` tag groups related content into a thematic section.
+
+**Example:**
+
+```html
+<section>
+    <h2>My Skills</h2>
+    <p>I am learning HTML, CSS, and JavaScript.</p>
+</section>
+```
+
+### 5. `<article>`
+
+The `<article>` tag represents self-contained content that can stand independently, such as a blog post or news article.
+
+**Example:**
+
+```html
+<article>
+    <h2>My First Blog</h2>
+    <p>This is my first blog post.</p>
+</article>
+```
+
+### 6. `<aside>`
+
+The `<aside>` tag represents content that is indirectly related to the main content, such as a sidebar.
+
+**Example:**
+
+```html
+<aside>
+    <h3>Related Topics</h3>
+    <p>Learn CSS after HTML.</p>
+</aside>
+```
+
+### 7. `<footer>`
+
+The `<footer>` tag represents footer information for a page or section.
+
+**Example:**
+
+```html
+<footer>
+    <p>Copyright &copy; 2026 My Website</p>
+</footer>
+```
+
+### 8. `<figure>` and `<figcaption>`
+
+* `<figure>` represents self-contained content, such as an image or illustration.
+* `<figcaption>` provides a caption for the content inside a `<figure>` element.
+
+**Example:**
+
+```html
+<figure>
+    <img src="flower.jpg" alt="A beautiful flower">
+    <figcaption>A beautiful flower.</figcaption>
+</figure>
+```
+
+## 3. Summary of Semantic Tags
+
+| Tag            | Purpose                                             |
+| -------------- | --------------------------------------------------- |
+| `<header>`     | Defines introductory content or a header            |
+| `<nav>`        | Defines navigation links                            |
+| `<main>`       | Defines the main content                            |
+| `<section>`    | Groups thematically related content                 |
+| `<article>`    | Defines self-contained content                      |
+| `<aside>`      | Defines indirectly related content                  |
+| `<footer>`     | Defines footer information                          |
+| `<figure>`     | Represents self-contained content, such as an image |
+| `<figcaption>` | Defines a caption for a figure                      |
+
+## 4. Complete HTML Example
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Coding Journey</h1>
+        <p>Learning HTML step by step.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <main id="home">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am learning web development.</p>
+        </section>
+
+        <article>
+            <h2>My First HTML Lesson</h2>
+            <p>Today, I learned about semantic tags.</p>
+        </article>
+
+        <aside>
+            <h3>Learning Tip</h3>
+            <p>Practice HTML every day.</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2026 My Coding Journey</p>
+    </footer>
+
+</body>
+</html>
+```
+
+## 5. Advantages of Semantic Tags
+
+1. **Readability:** Makes HTML code easier to understand.
+2. **Accessibility:** Helps assistive technologies interpret page structure.
+3. **SEO:** Helps search engines understand the structure and meaning of content.
+4. **Maintainability:** Makes code easier to manage and update.
+5. **Structure:** Gives different parts of a webpage meaningful roles.
+
+## 🎯 What I Learned
+
+* What semantic HTML tags are.
+* The purpose of `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, and `<footer>`.
+* How to structure a webpage using semantic elements.
+* The importance of semantic HTML in accessibility, readability, and SEO.
+
+---
+
+**Learning Path:** HTML → CSS → JavaScript
+**Topic:** Semantic HTML Tags
+**Goal:** Build a strong foundation in web development.
