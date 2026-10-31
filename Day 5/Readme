@@ -1,0 +1,44 @@
+# HTML Input Types
+
+Today, I learned about different HTML input types.
+
+## Input Types
+
+* `text`
+* `password`
+* `email`
+* `number`
+* `tel`
+* `url`
+* `radio`
+* `checkbox`
+* `date`
+* `time`
+* `datetime-local`
+* `month`
+* `week`
+* `color`
+* `range`
+* `file`
+* `hidden`
+* `search`
+* `submit`
+* `reset`
+* `button`
+* `image`
+
+## Example
+
+```html
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number">
+<input type="radio">
+<input type="checkbox">
+<input type="date">
+<input type="file">
+<input type="submit">
+```
+
+**Learning Journey:** HTML Forms & Input Types 🚀
